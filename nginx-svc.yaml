@@ -5,11 +5,11 @@ metadata:
   namespace: nginx-ingress
 spec:
   ports:
-  - port: 80
-    name: http
-  - port: 443
-    name: https
+    - port: 80
+      name: http
+    - port: 443
+      name: https
   selector:
     app: nginx
   externalIPs:
-  - 192.169.7.138
+    - 192.169.7.138

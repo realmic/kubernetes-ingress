@@ -9,7 +9,9 @@ spec:
       name: http
     - port: 443
       name: https
+    - port: 22
+      name: ssh
   selector:
     app: nginx
   externalIPs:
-    - 192.169.7.138
+    - 10.0.0.6
